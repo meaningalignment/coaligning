@@ -1,0 +1,5 @@
+# Co‑aligning AI and Institutions
+
+# **Abstract**
+
+Artificial‑intelligence alignment cannot be solved by focusing on single systems in a vacuum. Even perfectly intent‑aligned models will go awry when embedded inside misaligned economic, political, or social institutions. We argue that two dominant paradigms—(i) preference/utility maximisation inherited from the Standard Institution Design Toolkit (SIDT) and (ii) prompt‑ or self‑critique–based "text alignment"—are structurally incapable of delivering robust socio‑technical alignment. Instead we propose Full‑Stack Alignment (FSA): a new toolkit centred on explicit, structured representations of human norms and values. After analysing the shortcomings of existing toolkits, we sketch four concrete representation techniques and illustrate their promise through five case studies ranging from AI negotiation to democratic regulation. We close with a research and deployment roadmap toward institutions and AI systems that co‑evolve for global human flourishing.
