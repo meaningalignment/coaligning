@@ -32,7 +32,7 @@ The paper is structured as follows:
 
 **Sections 2.1 and 2.2** analyze why existing toolkits fail, examining the limitations of both preference/utility frameworks and prompt-based alignment. We show why neither meets the demands of high-stakes alignment.
 
-**Section 3** introduces a richer toolkit centered on explicit, structured representations of human norms and values, surveying four complementary techniques: well-defined attractor points in training or deliberation space, formally specified and verifiable text, programmatic specifications, and utility functions enriched by deeper investigation of the normative landscape.
+**Section 3** introduces a richer toolkit centered on explicit, structured representations of human norms and values, presenting two fundamental approaches: defining well-defined attractor points toward which values or norms naturally trend, and tightening the specification of what counts as a norm or value to exclude spurious candidates.
 
 **Sections 4.1–4.5** present five case studies demonstrating how these techniques can address previously intractable alignment challenges, from AI agents that steward user values to democratic regulatory institutions that act at the speed of AI.
 
