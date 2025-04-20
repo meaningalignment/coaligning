@@ -1,108 +1,90 @@
-# Inadequacy of Utility Function and Preference-Based Approaches
+# Why Existing Toolkits Fail
 
-To address the challenge of socio-technical alignment requires redesigning institutional structures, yet we will claim that the formal toolkit for institution design inherited from the 20th century—microeconomics, game theory, mechanism design, welfare economics, and social choice theory—is inadequate. We call this inadequate set of theories the *Standard Institution Design Toolkit (SIDT).*
+## 2.1 Inadequacy of Utility Function and Preference-Based Approaches
 
-These theories model agents via a *thin* conception of rationality: individuals are presumed to possess intrinsic preference profiles, utility functions, or payoff matrices with some big limitations: (1) they cannot be inspected by others[*]; (2) they do not reference some underlying notion of the good; (3) they are blind to social context, such as shared values, norms, beliefs, or group identities[1].
+To address the challenge of socio-technical alignment requires redesigning institutional structures. Yet the formal toolkit for institution design inherited from the 20th century—microeconomics, game theory, mechanism design, welfare economics, and social choice theory—is structurally inadequate for this task. We refer to this set of theories as the *Standard Institution Design Toolkit (SIDT)*.
 
-1. People's preferences are often **incomplete**, **inconsistent**, or **unstable** over time.
+The SIDT models agents via a *thin* conception of rationality: individuals are presumed to possess intrinsic preference profiles, utility functions, or payoff matrices. This approach has three fundamental limitations: (1) preferences cannot be inspected by others[^1]; (2) they do not reference underlying notions of the good; and (3) they are blind to social context, including shared values, norms, beliefs, and group identities[^2].
 
-    Since utility theory is not designed to model agents who change , reshape, and discover preferences over time — much less agents that *reason* about which preferences or values are more sensible or justified to hold — it is unlikely that it will be up to the task of capturing human-like reflection about values. Instead, thicker approaches to human values and choice are likely necessary, as we will describe further below.
+Our critique of preference-based approaches centers on three interrelated problems:
 
-2. **Need to avoid manipulation of revealed preferences.** We've known since the debates in welfare economics (most closely associated with Amartya Sen) that revealed preference is quite limited as a measure of benefit. It's become ever clearer that businesses, governments, and other entities have indeed learned to exploit individuals under the guise of serving their preferences, using AI[2], and it's also become clear that current AI models are actively engaged in reward hacking[*].
+### 2.1.1 Problems with Individual Preferences
 
-    Since LLM-based AI is taking over much more of society even than recommenders did, there is, thankfully, much more appetite to overcome these problems with revealed preference than there was when Sen was working in development economics.[5]
+Preference-based approaches fail to accurately model how humans actually relate to their own preferences and values. People's preferences are often **incomplete**, **inconsistent**, and **unstable** over time. Utility theory lacks mechanisms to model agents who change, reshape, and discover preferences—much less agents that *reason* about which preferences or values are more sensible or justified to hold.
 
-    This seems to demand a deep economic shift, and one that's difficult to model using conventional microeconomics or to measure using welfare economics, because in these models humans are considered to be 'fulfilling their preferences' even when they are doomscrolling, addicted to AI pornography, etc.
+Moreover, revealed preference proves fundamentally limited as a measure of benefit, as established in welfare economics debates associated with Amartya Sen. Businesses, governments, and other entities have learned to exploit individuals under the guise of serving preferences, particularly through AI systems[^3]. As AI systems grow more sophisticated and pervasive, this manipulation intensifies. Current AI models actively engage in reward hacking[^4], and humans similarly "hack" themselves through behaviors that satisfy proximate preferences while undermining deeper values.
 
-3. **Preferences seem inadequate for sophisticated democracy.**
+This creates a significant challenge for preference-based theories: they consider humans to be "fulfilling their preferences" even when engaged in maladaptive behaviors like compulsive scrolling or AI-mediated addiction. The SIDT provides no principled way to distinguish authentic from manipulated preferences, creating inherent vulnerabilities in any system designed on its foundations.
 
-    Preference/utility frameworks in social choice fall short, here, for several reasons: (1) first, the impacted people may not have the time (or mental bandwidth) to express their detailed preferences about every possible outcome in time for the negotiation to occur; (2) second, while the representative agent could extrapolate from previous preferences, since preferences are divorced from reasons, it's reasoning will not be accountable to human reasons; (3) finally, preference frameworks assume preferences are static and previous-established, and cannot model the updating that often occurs as new circumstances are considered.
+### 2.1.2 Problems with Collective Coordination
 
-    To give but one example, the standard version of social choice is blind to the most powerful lever in deliberation: inspiration. The best mechanisms should not just accommodate existing preferences; they should allow for the formation and inspiration of new ones, by creating environments where individuals grow in their understanding of what is good.[6] Can mechanism design catch up with ancient Athens?
+The SIDT's greatest weaknesses emerge in collective contexts, where coordination and cooperation are essential. Game-theoretic approaches to cooperation—a cornerstone of the SIDT—fail to capture how humans actually cooperate. In classical solution concepts like Nash equilibria, agents maximize payoffs assuming independent and uncorrelated actions. This view of "rational" multi-agent interaction provides no framework for understanding genuine shared social norms.
 
-    1. **Need for new institutional forms.** The SIDT theories achieved their centrality because they are mathematically expressive and powerful, parsimonious, and they sat well with widespread philosophical intuitions. Plus, they seemed 'good enough' for the institution design challenges of their day. Yet, today, AI alignment challenges seem to require inventing new forms of governance, and many directions for institutional innovation are hard to motivate or analyze using the SIDT.
-4. **Preferences, game theory and cooperation.**
+Standard game theory has been repeatedly criticized for failing to predict cooperation in settings like the one-shot Prisoner's Dilemma, where humans frequently cooperate, and for its inability to explain humans' ability to make and maintain promises without external enforcement. The strategic rationality endorsed by conventional game theory is essentially Machiavellian—a rationality where deceptive promises are considered reasonable and coercive tactics are fair play.
 
-    Addressing these challenges turns out to be a sore point for the SIDT. In the most classical solution concept in game theory — Nash equilibria — agents simply maximize their payoffs under the assumption that everyone's actions are independent an uncorrelated. On this view of "rational" multi-agent interaction, there is no room for shared social norms. Other equilibrium concepts, such as correlated equilibria, provide an entry point for shared norms [CITE], but no explanation for how people might select between or reason about which equilibria might be better [CITE]. Furthermore, game theory assumes that norms exist purely to coordinate ultimately self-interested behavior — yet many human norms both constitute and express our shared values and practices [CITE].
+Similarly, preference/utility frameworks in social choice theory fail to support sophisticated democratic processes. Impacted individuals typically lack time to express detailed preferences about every possible outcome; representative agents cannot provide accountable reasoning; and preference frameworks assume static preferences rather than capturing how preferences evolve through deliberation. The standard version of social choice misses the most powerful lever in democratic deliberation: inspiration. Effective democratic mechanisms should not merely aggregate existing preferences but facilitate the formation of new ones.
 
-    As such, if autonomous agents are trained in accordance with a thin game-theoretic account of human normativity — as is typical in approaches like multi-agent RL — we will likely find them normatively incompetent: incapable of recognizing or following existing norms, incapable of reasoning about or adapting them, and incapable of understanding the reasons and functions of our norms and institutions. To build agents that are normatively competent, we will have to depart from the SIDT and its technical implementations.
+If AI systems are developed using these inadequate frameworks—whether in multi-agent reinforcement learning or democratic governance—they will likely be normatively incompetent: unable to recognize or follow existing norms, adapt them appropriately, or understand the reasons behind our social institutions. This normative incompetence would severely undermine the socio-technical systems these AIs are meant to support.
 
-    As in the case of AI-mediated institutional dysfunction ([Challenge 2](https://www.notion.so/Co-aligning-AI-Institutions-1d7c5bada1d0804e8a27c467305e7096?pvs=21)), standard game-theoretic accounts do not offer much hope for addressing this risk. In fact, game theory has long been criticized for its failure to predict cooperation in classic settings like the one-shot Prisoner's Dilemma, where many humans do successfully cooperate, or to capture humans' ability to make and maintain promises without external commitment devices. Instead, the kind of strategic rationality endorsed by conventional game theory is essentially Machiavellian: a form of rationality where deceptive "promises" are considered reasonable, and threats or strong-arm tactics are fair play. Such rationality often destroys the possibility of negotiating cooperative outcomes, and even when it does achieve stability, it may be through risky and threat-laden mechanisms such as mutually-assured destruction.
+### 2.1.3 Problems with Higher Goods and Fit
 
-    How might these Machiavellian AI dynamics be avoided? While the ability to learn and understand norms ([Challenge 2](https://www.notion.so/Co-aligning-AI-Institutions-1d7c5bada1d0804e8a27c467305e7096?pvs=21)) provides part of answer, reasoning about preferable norms, contracts, and institutions often involves simulating what the relevant agents would agree to — a process of negotiation. Whether in actual or simulated negotiation then, we will need frameworks for negotiation and bargaining that make room for people's ability to credibly report the commitments and values that guide their actions, to model others as commitment-bound reasoners, or to universalize our decision procedures to other cooperators. Neither conventional game theory nor the SIDT provide these resources.
+Perhaps most fundamentally, the SIDT assumes agents have fixed preferences disconnected from broader notions of the good. This prevents individuals, societies, and AI systems from aspiring to ideals beyond preference satisfaction. Our social embeddedness—whether understood through shared values, norms, or beliefs—suggests forms of goodness beyond preference satisfaction: moral progress, enhanced cooperation across scales, and the discovery of deeper truths[^9].
 
-5. **Need to address higher goods.** Finally, the SIDT assumes agents have fixed preferences, disconnected from one another and from any broader notion of the good**.** This means, individuals, societies and AI systems cannot collectively aspire to ideals beyond preference satisfaction.
+As long as individual preferences remain the sole measure of good, these dimensions cannot be acknowledged. While preference satisfaction metrics might show economic growth, other social goods appear to be declining: our capacity for collective knowledge production has deteriorated through misinformation; shared moral frameworks have weakened; and cooperation mechanisms have eroded across various domains. Preference-based metrics cannot detect these declines, nor would AI systems designed to maximize preference satisfaction address them.
 
-    However you understand our social embedding — whether as shared values, norms, or beliefs — to acknowledge it exists seems to suggest kinds of goodness beyond preference satisfaction. For example, if humans have shared values, this suggests moral progress or learning is possible. If humans have evolving norms, this suggest we could aim at game-theoretic notions of goodness, such as cooperation at higher scales, or across diverse ecosystems. If humans have shared beliefs, there's the aspiration to discover higher truths.[*]
+Finally, the ultimate test of any framework for human agency is how well the systems it informs *fit* human nature. Current mechanism design implies agents who optimize, calculate, strategize, and reduce values to numbers. These activities aren't foreign to human nature, but they don't capture its fullness. Consequently, participating in institutions designed on these principles requires constant effortful adaptation.
 
-    So long as individual preferences are the yardstick of the good, none of these other notions can be admitted, and no one is allowed to know better than anyone else.
-
-    What's worse, so long as the satisfaction of reveal preference is our only social good—or the only one we measure and track—we'll see other social goods in decline. And there's broad agreement this has been happening:
-
-    - Especially in domains like politics and science, there's widespread suspicion that our capacity for social cognition, converging on truth, has declined, via misinformation, media manipulation, etc.
-    - Conservatives suspect we've suffered a decline in morals and aesthetics.
-    - Both tend to say our norms and channels for cooperation have eroded.
-
-    Whether such declines are happening or not, it doesn't seem likely that measures of consumption or engagement/revealed preference would show them, or that AIs and institutions tuned to maximize consumption / engagement / revealed preference would honor them.
-
-    This becomes more intolerable the faster those agents or institutions operate, and the more power they wield.
-
-6. **Fit?**
-
-    The ultimate test of an idea about human nature is how the systems it informs *fit*. What we mean by this[10] is: any set of social theories implies certain skills and activities on the part of agents. Current mechanism design implies agents who optimize, calculate, strategize, collude, reduce values to numbers, estimate probabilities, etc. Standard theories of intelligent agency — which guide the design of both AI systems and their models of humans — do the same. These activities aren't foreign to human nature, but don't seem central either. So, we have to put in a kind of effort to participate in the institutions that emerged from this view of agency. (Other social theories have similarly poor fits: people don't effortlessly advocate for class or race interests, nor natural status maximizers, etc. That makes participating in class struggles or status games a bit exhausting.)
-
-    We hope that the mechanisms and institutions implied by this new toolkit, with their explicit norms and values, will be different. We hope that norm-following, norm-intuiting, inspiration, and pluralist value-pursuit make a better account of human nature and rationality than the above, and that therefore algorithms, institutions and mechanisms built on this basis will fit our lives better.
-
-    Ultimately, the proof here is experiential: as new context-aware institutions, algorithms, mechanisms, platforms, and laws develop, we'll see what it feels like to participate in them.
+The SIDT achieved prominence because it offered mathematical expressiveness and parsimony. These theories were "good enough" for the institution design challenges of their era. However, contemporary AI alignment challenges require novel governance forms that the SIDT cannot adequately conceptualize or analyze. We need approaches that better reflect how humans actually relate to values, norms, and social coordination.
 
 
-# Inadequacy of Prompt & Self-Critique-Based Approaches
+## 2.2 Inadequacy of Prompt & Self-Critique-Based Approaches
 
-- **Determining an Adequate Specification.** If you're gathering a prompt or a specification in one go, it's hard to get the level of detail right, or to know if users really said what they mean to say. Often, we misspecify our prompts, or we're vague, and we need to adjust them. This problem will get worse as agents take more actions on our behalf, or as more involved chains of reasoning and self-critique come between textual intents and actions taken.
+While the SIDT represents the dominant paradigm for institutional design, an alternative has emerged for AI alignment: prompt-based and self-critique approaches that use natural language to guide AI systems. However, these text-based approaches also have fundamental limitations for robust socio-technical alignment. We identify three primary inadequacies:
 
-    If agents instead come back with clarifying questions and follow-ups, we're just kicking the can down the road. It's hard to know when they should stop asking questions when they've said enough, if the result is just an arbitrary text ring, rather than some sharper notion of what it means to capture a value as used in choice, or a norm that applies within the context. When can the model be confident that it's understood what's important to a user or population, or what norms are right for a context?
+### 2.2.1 Specification Challenges
 
-    In more social contexts, we see additional barriers to adequate specification:
+Capturing adequate specifications through prompts or natural language statements presents significant difficulties. When specifications are gathered in a single interaction, it is challenging to achieve the right level of detail or verify that users have effectively communicated their intent. These problems will only intensify as AI agents undertake more complex actions and as chains of reasoning and self-critique interpose between textual instructions and resultant behaviors.
 
-    - **Manipulation**. Additionally, once agents are asking follow-up statements, it becomes hard to know what information came from the user, and what information was supplied by the model. If the user appears happy with model behavior, does that amount to a successful information transfer from the user to the model? Or is it a manipulation of the user / ending prompt by the model?
-    - **Bridging and vagueness.** These problems are further compounded. In social choice settings. Here, bridging structures make text strings even more vague than what'd be supplied by individual users. When you ask about political values, you often get statements that are vaguely positive, like Obama's "hope" - but relatively powerless in terms of shaping model behavioral policies.
+Having agents request clarification through follow-up questions merely postpones the fundamental problem. Without structured representations of values or norms, it becomes difficult to determine when sufficient information has been gathered to guide decision-making appropriately. The model lacks clear criteria for understanding what constitutes an adequate representation of a user's values or the norms appropriate to a context.
 
-        We wrote about how this problem affects CCAI in https://arxiv.org/abs/2404.10636:
+In social contexts, these specification challenges are compounded by additional factors:
 
-        > However, these constitutional approaches are not fine-grained: principles are generally vague and can be interpreted in many ways. Many different principles might apply for a given output and there is no way of reconciling which principle should be prioritized in a given context. This also makes them less auditable, as it's difficult to determine which principles were used to produce a particular output.
-        >
-        >
-        > For example, the comments below were surfaced as shared "values" by CCAI:
-        >
-        > - The AI should always do the right thing
-        > - The AI should not give advice.
-        > - The AI should be fun.
-        > - The AI should actively address and rectify historical injustices and systemic biases in its
-        > decision-making algorithms.
-        > - The AI should remain unbiased and state only proven facts.
-        > - The AI should promote self motivation and positive reinforcements
-        >
-        > Are these all values? Some seem more like policies, some like vague aspirational statements, some seem like goals. Some are just hard to interpret: if a person using [pol.is](http://pol.is/) upvotes one of these comments, can we assume that means they have a particular value? The same one that others who upvoted that comment have?
-        >
-        > 
-    - **Pollution of values statements by sloganeering.** Other "automatic deliberation" methods, like values profiles, end up polluting prompts and specs with preexisting ideological battles. You often see statements like "Killing babies is always wrong" or "family values" or "All cops are bastards" that don't really map to the kinds of values that users themselves would use in their choices, or what they would apply if they found themselves in a position of responsibility.
-- **Verification of Good Reasoning.** Suppose you somehow manage to overcome the above, and get good information about norms or values into a free form text. Once it's in free form text, "reasoning" is allowed to hang off that free form text in arbitrary ways. It then becomes hard to check if it's good reasoning.
+1. **Information Source Ambiguity**: When agents engage in extended dialogues with users, distinguishing genuine user preferences from model-suggested options becomes difficult. If a user expresses satisfaction with an AI's behavior, this may reflect successful preference elicitation or subtle manipulation of the user's expressed preferences.
 
-    In philosophy, logic, and cognitive science, there are formal models of what good reasoning about values and norms consists of (e.g., models of reasoning that connects values to improved values, values to actions, norms to permitted actions). Such models of good values- or norm-based reasoning can be useful to check justifications that models make. But these models of good reasoning aren't defined over arbitrary text strings. They act on structure data representing values, norms, options, etc.
+2. **Collective Preference Vagueness**: In social choice settings where multiple stakeholders are involved, text-based approaches often yield vague statements that lack actionable specificity. Political values expressed in natural language tend toward aspirational generalities (e.g., "hope," "freedom") that provide minimal guidance for concrete decision-making.
 
-- **Societal pressure to mis-specify.** Finally, since anything can be added to free-form text, and used as an input to self-critique, this opens up vectors by which alignment targets will be polluted (are already polluted), by tribal affiliations and ideological warfare, shaping model behavior away from what affected human populations would consider wise, towards adherence to various slogans and fads.
+As documented in our analysis of Constitutional AI approaches[^10]:
 
-    The tribal affiliations and ideological signals we mentioned above which already pollute our prompts and specifications — these aren't just accidental. There's intense societal pressure to make people claim to have certain values and to espouse certain norms.
+> "These constitutional approaches are not fine-grained: principles are generally vague and can be interpreted in many ways. Many different principles might apply for a given output and there is no way of reconciling which principle should be prioritized in a given context. This makes them less auditable, as it's difficult to determine which principles were used to produce a particular output.
+>
+> For example, these comments were surfaced as shared 'values' by CCAI:
+> - The AI should always do the right thing
+> - The AI should not give advice
+> - The AI should be fun
+> - The AI should actively address and rectify historical injustices and systemic biases
+> - The AI should remain unbiased and state only proven facts
+> - The AI should promote self-motivation and positive reinforcement
+>
+> Are these all values? Some seem more like policies, some like vague aspirational statements, some like goals. If a person upvotes one of these comments, can we assume they have a particular value? The same one that others who upvoted that comment have?"
 
-    The challenge is to avoid dragging socio-technical alignment into the same political morass/quagmire the entire political process has been stuck in, without being subject to any political bias.
+3. **Ideological Pollution**: Value elicitation methods that rely on free-form text often become contaminated with polarized ideological markers rather than authentic personal values. Statements like "Defund the Police" or "Family Values" typically reflect tribal affiliations rather than the actual values that guide individuals' meaningful choices.
 
-    A great way to do that, is to have clear models of what norms and values *are,* which end-users can also understand, and see how they work and how they influence choices. This requires some kind of model about what should count as a value or norm, rather than just free text. Equipped as such, users can tell for themselves that they're not being skewed away from one set of values to another, but are engaging in a process that surfaces more of their true values and of other people's.
+### 2.2.2 Reasoning Verification Problems
 
-    There is prior art here wrt values; as we wrote in https://arxiv.org/abs/2404.10636:
+Even if adequate specifications could be obtained in natural language, verifying that an AI system reasons appropriately about those specifications presents another challenge. When values and norms are represented as unstructured text, the system's reasoning processes can connect to that text in arbitrary ways that resist systematic verification.
 
-    > If someone claims to have a value like "Defund the Police" or "Abortion is Murder", they are then
-    asked about meaningful choices ( 4.5) they themselves have made, and what they paid attention to
-    during the choice. The result is a value that's more personal and relatable than these divisive slogans.
-    >
+In philosophy, logic, and cognitive science, formal models exist for reasoning about values and norms—models that connect values to improved values, link values to appropriate actions, or derive permitted actions from norms. These formal models can validate an AI system's normative reasoning, but they operate on structured representations rather than arbitrary text strings. Without such structured representations, there is no principled way to verify that an AI system's reasoning about values and norms is sound.
 
-    (See also A.4 Elaboration on robustness to ideological rhethoric in https://arxiv.org/abs/2404.10636)
+### 2.2.3 Vulnerability to Social Pressure
+
+Finally, the use of free-form text for alignment targets makes them vulnerable to various forms of social pressure. When anything can be added to prompts or constitutional principles, alignment targets become susceptible to tribal affiliations and ideological signaling that may redirect AI behavior away from what affected populations would consider wise and toward adherence to prevailing rhetorical positions.
+
+The prevalence of ideological markers in value elicitation is not accidental but reflects intense social pressures that influence how people articulate their values and norms. The challenge lies in developing methods that can bypass these pressures to access genuine personal and shared values.
+
+A promising approach involves developing clear, structured models of values and norms that end-users can understand and apply. Such models would specify what counts as a value or norm rather than relying solely on free-form text. With these structured representations, users can better distinguish their authentic values from imposed ideological positions.
+
+Previous research demonstrates the efficacy of this approach[^11]:
+
+> "If someone claims to have a value like 'Defund the Police' or 'Abortion is Murder,' they are then asked about meaningful choices they themselves have made, and what they paid attention to during the choice. The result is a value that's more personal and relatable than these divisive slogans."
+
+This approach to eliciting structured value representations can mitigate the influence of ideological rhetoric, enabling more authentic representation of both individual and collective values in AI systems.
