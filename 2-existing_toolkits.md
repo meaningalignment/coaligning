@@ -2,9 +2,13 @@
 
 ## 2.1 Inadequacy of Utility Function and Preference-Based Approaches
 
-To address the challenge of socio-technical alignment requires redesigning institutional structures. Yet the formal toolkit for institution design inherited from the 20th century—microeconomics, game theory, mechanism design, welfare economics, and social choice theory—is structurally inadequate for this task. We refer to this set of theories as the *Standard Institution Design Toolkit (SIDT)*.
+To address the challenge of socio‑technical alignment we must rethink how institutions are designed and evaluated.  The formal apparatus that still dominates this work—microeconomics, game theory, mechanism design, welfare economics, and social‑choice theory—was forged in, and for, the 20th century.  We bundle these strands under the label *Standard Institution Design Toolkit (SIDT)*.
 
-The SIDT models agents via a *thin* conception of rationality: individuals are presumed to possess intrinsic preference profiles, utility functions, or payoff matrices. This approach has three fundamental limitations: (1) preferences cannot be inspected by others[^1]; (2) they do not reference underlying notions of the good; and (3) they are blind to social context, including shared values, norms, beliefs, and group identities[^2].
+The SIDT idealises agents as *utility / preference maximisers*: each individual comes equipped with a complete, context‑independent ordering over outcomes.  Over the last three decades researchers have proposed a wealth of refinements—menu‑dependent and **incomplete** preferences (Gul & Pesendorfer 2001; Bewley 2002), models of **social** or **other‑regarding** preferences (Fehr & Schmidt 1999), **behavioural** relaxations of expected‑utility axioms (Tversky & Kahneman 1992), and participatory‑budgeting or quadratic‑voting mechanisms that elicit richer information (Goel et al. 2019).  These advances fix important *technical* bugs, yet they leave three *structural* limitations untouched:
+
+1. **Opacity** – preferences remain private data: no shared representation lets others audit, deliberate over, or contest them[^1].
+2. **A‑normativity** – the framework stays neutral about *which* preferences are worth having; it cannot distinguish authentic from manipulated desires.
+3. **Context‑blindness** – utility is attached to solitary outcomes, not to the mesh of roles, narratives, and shared norms in which human action is embedded[^2].
 
 Our critique of preference-based approaches centers on three interrelated problems:
 
