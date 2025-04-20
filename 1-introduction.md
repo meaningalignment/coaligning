@@ -1,63 +1,41 @@
 # Introduction
 
-As artificial intelligence systems become more capable and widespread, they increasingly interact with—and are embedded within—our existing institutional landscape. This integration raises a crucial question: what happens when powerful AI systems operate within institutional contexts that have their own imperatives, incentives, and constraints?
+The growing field of socio-technical alignment argues that beneficial AI outcomes require more than aligning individual systems with operators' intentions. Even perfectly intent-aligned AI systems will become misaligned if deployed within broader institutions—such as profit-driven corporations, competitive nation-states, or inadequately regulated markets—that conflict with global human flourishing.
 
-The growing field of socio-technical alignment points to a sobering reality: beneficial AI outcomes require more than aligning individual systems with their operators' intentions. Even if we develop AI systems that perfectly understand and follow human instructions, they can produce harmful outcomes when deployed within broader institutional frameworks—such as profit-driven corporations, geopolitically competitive nation-states, or inadequately regulated markets—whose incentives conflict with global human flourishing.
+This fundamental observation—that AI alignment cannot be solved by focusing on single systems in a vacuum—necessitates a broader conception of alignment that encompasses both AI systems and the institutional contexts in which they operate. Without such co-alignment, we risk deploying technically "intent-aligned" systems that nevertheless accelerate institutional dynamics at odds with human values, resulting in emergent misalignment at scale.
 
-The stakes are significant. If we focus solely on aligning individual AI systems while ignoring the institutional context in which they operate, we risk creating a world where technically "aligned" AI accelerates harmful institutional dynamics, exacerbates existing social problems, and potentially creates new ones. Conversely, if we develop robust methods for **co-aligning artificial intelligence and institutions**, we unlock the potential for AI systems that genuinely serve humanity's long-term interests.
+Once we agree that it is important to **co-align artificial intelligence and institutions**, the key question becomes **how** to achieve this integration.
 
-Given the importance of this co-alignment challenge, the key question becomes: **how** do we achieve it?
+Historically, this has been treated as a problem in **game theory** and **social choice**, where both human beings and AI agents are modeled as **rational choice**, **expected utility maximizers**, or as having **utility functions** or **preference relations**.
 
-## Two Prevailing Approaches and Their Limitations
+In the classical paradigm—which includes techniques like inverse reinforcement learning—we find game-theoretic approaches to alignment, and preference aggregation approaches from social choice theory, where **preferences are first collected** from a large group of individuals, and a **social welfare function** is then constructed to aggregate them into a single decision or policy. The idea is that once you know each agent's utility function or ranked preferences, you can use formal methods to align collective action or optimize AI behavior accordingly.
 
-To date, two major paradigms have dominated attempts to tackle the co-alignment challenge:
+We cover the inadequacies of preference and utility-based approaches for co-alignment in "2-existing_toolkits.md", detailing six core limitations: unstable preferences, manipulability of revealed preference, inadequacy for sophisticated democracy, thin accounts of cooperation, blindness to higher goods, and poor fit with human nature.
 
-### The Preference-Based Paradigm
+More recently, in practical applications, we're seeing a shift away from preference-based alignment toward **text-based methods**. In **single-user alignment**, preference models like RLHF (Reinforcement Learning from Human Feedback) are being replaced by **processes of self-critique**—such as **deliberative alignment**—where the model engages in a kind of reasoning or self-evaluation in response to a prompt.
 
-Historically, the challenge has been approached through the lens of **game theory** and **social choice theory**. These frameworks model both humans and AI agents as rational utility-maximizers with definable preference structures.
+In **multi-agent or institutional contexts**, the basic unit is no longer the preference or utility function, but rather **text strings**: this includes considerations drawn from **Constitutional AI (CCAI)**, text-based **values profiles** (https://arxiv.org/abs/2503.15484), **model specs** upon which reasoning models deliberate (https://arxiv.org/abs/2412.16339) to train themselves. These strings are taken to encode **norms**, **intent**, or **values**, and are then processed by the model through self-critique or adherence routines.
 
-In this classical paradigm—which includes techniques like inverse reinforcement learning—alignment is pursued through either game-theoretic mechanisms or preference aggregation methods. The basic workflow involves:
+Although these methods are more flexible and richer than preference-based ones, they suffer from their own set of limitations, covered in "2-existing_toolkits.md": specification fragility, verification difficulties, and vulnerability to societal pressure and ideological pollution.
 
-1. Collecting individual preferences or inferring utility functions
-2. Constructing a "social welfare function" that aggregates these preferences  
-3. Using formal methods to optimize AI behavior according to this aggregated function
+Thus, despite their flexibility, **text strings and self-critique lack the rigor** required for high-stakes socio-technical alignment. Neither preference/utility nor text-based paradigms offer the necessary foundations for robust socio-technical alignment.
 
-This approach offers mathematical clarity but suffers from serious limitations when applied to real-world socio-technical systems, as we detail in "2-existing_toolkits.md".
+In "3-new_toolkit.md", we introduce four practical alignment techniques that go beyond preferences and free-form textual 'intents' to capture **deeper, more structured representations of human values and norms**—representations that can be inspected, verified, and deliberated over within a framework we term **Full-Stack Alignment (FSA)**.
 
-### The Text-Based Paradigm
+We coin **Full-Stack Alignment (FSA)** to capture three core ideas:
 
-More recently, practical AI alignment has shifted toward **text-based methods** that encode values and norms in natural language. This paradigm operates in two key domains:
+1. Aligning AI systems and institutions must occur simultaneously across the stack; misalignment at one layer (e.g. geopolitical) creates pressure elsewhere.
+2. Migration from preference/utility frameworks to explicit norm-and-value models makes many alignment challenges tractable.
+3. A staged strategy is required—from foundational theory through expert consensus, pilot institutions, and eventual societal adoption.
 
-- In **single-user contexts**, preference models like RLHF (Reinforcement Learning from Human Feedback) are increasingly complemented or replaced by **processes of self-critique**—such as deliberative alignment—where models reason about their own outputs.
+The paper is structured as follows:
 
-- In **multi-agent or institutional contexts**, we see the emergence of approaches like Constitutional AI, text-based value profiles, and model specifications that encode normative guidance in natural language.
+**Sections 2.1 and 2.2** analyze why existing toolkits fail, examining the limitations of both preference/utility frameworks and prompt-based alignment. We show why neither meets the demands of high-stakes alignment.
 
-These approaches offer greater flexibility and expressivity than preference-based methods, but introduce new challenges around specification, verification, and vulnerability to ideological capture. We discuss these limitations in detail in "2-existing_toolkits.md".
+**Section 3** introduces a richer toolkit centered on explicit, structured representations of human norms and values, surveying four complementary techniques: well-defined attractor points in training or deliberation space, formally specified and verifiable text, programmatic specifications, and utility functions enriched by deeper investigation of the normative landscape.
 
-## The Need for a New Approach
+**Sections 4.1–4.5** present five case studies demonstrating how these techniques can address previously intractable alignment challenges, from AI agents that steward user values to democratic regulatory institutions that act at the speed of AI.
 
-While both paradigms have advanced our understanding, neither provides the robust foundations needed for genuine socio-technical alignment. Both preference-based and text-based approaches fail to capture the rich, structured nature of human values and institutional norms.
+**Section 5** details a research and implementation roadmap toward institutions and AI systems that co-evolve for global human flourishing, progressing from fundamental research through expert consensus to flagship implementations.
 
-In "3-new_toolkit.md", we introduce a third paradigm: **Full-Stack Alignment (FSA)**. This approach goes beyond both preference structures and free-form text to develop **explicit, structured representations of human values and norms**—representations that can be inspected, verified, and deliberated over by both humans and AI systems.
-
-## Paper Overview
-
-The remainder of this paper develops the Full-Stack Alignment (FSA) approach through five interconnected sections:
-
-1. **Why Existing Toolkits Fail** (Section 2) – We analyze the specific limitations of preference-based and text-based approaches, explaining why they fall short for high-stakes socio-technical alignment.
-
-2. **A New Toolkit** (Section 3) – We introduce four complementary techniques for explicit, structured representation of human values and norms, providing the theoretical foundation for FSA.
-
-3. **Motivating Case Studies** (Section 4) – We demonstrate the practical value of our approach through five case studies that span diverse domains, from AI negotiation systems to democratic regulatory institutions.
-
-4. **Research and Implementation Roadmap** (Section 5) – We outline a staged strategy for moving from theoretical foundations to real-world implementation, with concrete opportunities for early adoption.
-
-5. **Conclusion and Open Questions** (Section 6) – We reflect on the broader implications of FSA and identify key areas for future investigation.
-
-Throughout, we highlight three core principles that distinguish FSA from previous approaches:
-
-- **Multi-layer alignment** – Aligning AI systems and institutions must occur simultaneously across all layers of society, as misalignment at any level creates pressures that ripple through others.
-  
-- **Explicit normative representations** – Socio-technical alignment becomes tractable when we move beyond preference aggregation and natural language prompts to develop structured, verifiable representations of values and norms.
-  
-- **Practical implementation strategy** – Theoretical advances must be coupled with a clear path to adoption, progressing from research prototypes through expert consensus to flagship implementations and eventually broad deployment.
+We close in **Section 6** with reflections on open questions, including interfaces with pluralistic societies, resistance to manipulation, and governance structures for maintaining norm and value representations over time.
