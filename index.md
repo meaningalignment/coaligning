@@ -12,3 +12,4 @@
 6. [Research & Implementation Roadmap](./5-roadmap.md)
 7. [Conclusion & Open Questions](./6-conclusion.md)
 8. [Footnotes](./7-footnotes.md)
+9. [Related Work Comparison](./8-related_work.md)
