@@ -1,6 +1,6 @@
 # A New Toolkit: Explicit Norm & Value Representations
 
-Having seen why existing approaches break down, this section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. We first outline two complementary design strategies (value‑attractors and structural tightening) and then preview how these tools integrate with familiar methods in economics and machine learning.
+Having seen why existing approaches break down, this section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. We first outline two complementary design strategies (identifying value-patterns and structural tightening) and then preview how these tools integrate with familiar methods in economics and machine learning.
 
 The limitations of both preference-based and text-based paradigms point to a common inadequacy: neither takes a substantive stance on what norms and values are. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative.
 
@@ -10,13 +10,13 @@ What distinguishes our approach is the commitment to **explicit**, **accountable
 
 Here are two fundamental ways to implement this approach:
 
-## 1. Value Convergence: Identifying Stable Normative Reference Points
+## 1. Identifying Convergent Value Patterns
 
-The first approach identifies well-defined attractor points in training or deliberation space toward which values or norms naturally trend. This approach posits that certain normative structures emerge reliably when we examine patterns of convergence across agents, contexts, or time frames.
+The first approach identifies specific patterns that consistently emerge when analyzing values and norms across different scenarios. Rather than treating all possible preferences as equally valid, this approach recognizes that certain values reliably appear and stabilize across diverse contexts.
 
-Recent work on self-other generalization exemplifies this approach, conceptualizing values as considerations that exhibit stability across different agents' standpoints and/or across contexts and time frames for a single agent. This echoes philosophical work by Velleman on values as enabling compact, self-understandings and self/other understandings. In *Practical Reflection* (1989) and *How We Get Along* (2009), Velleman argues that values emerge through a compression process: considerations that are good across multiple agents, time frames, and contexts are more likely to represent genuine values rather than instrumental concerns or contingent preferences.
+Recent research on self-other generalization demonstrates this approach by focusing on considerations that remain consistent when viewed from multiple perspectives. For example, a value like "honesty" tends to be recognized across different agents, contexts, and time periods. This is not coincidental - as Velleman argues in his philosophical works (1989, 2009), genuine values emerge through a natural filtering process: considerations that remain beneficial across multiple perspectives and contexts become recognized as values, while merely instrumental concerns or temporary preferences don't achieve this stability.
 
-Similarly, instead of analyzing stable strategic outcomes in terms of Nash equilibria or correlated equilibria, we could model certain forms of decentralized cooperation as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023), where agents *universalize their policies* to relevantly similar agents when deciding what to do. This makes norms a stable attractor in policy space, given a social set-up.
+Similarly, when modeling cooperation, we can move beyond standard game theory approaches like Nash equilibria by using frameworks such as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023). These frameworks identify cooperation patterns where agents consider "what if everyone like me acted this way?" rather than just maximizing personal outcomes. This approach reveals how certain cooperative norms naturally emerge as stable patterns in social interactions, even without external enforcement.
 
 ## 2. Tightening the Structure of Norms and Values
 
