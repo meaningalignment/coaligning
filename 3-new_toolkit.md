@@ -10,7 +10,7 @@ What distinguishes our approach is the commitment to **explicit**, **accountable
 
 Here are two fundamental ways to implement this approach:
 
-## 1. Defining Attractor Points for Values and Norms
+## 1. Value Convergence: Identifying Stable Normative Reference Points
 
 The first approach identifies well-defined attractor points in training or deliberation space toward which values or norms naturally trend. This approach posits that certain normative structures emerge reliably when we examine patterns of convergence across agents, contexts, or time frames.
 

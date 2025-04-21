@@ -1,6 +1,6 @@
-# Motivating Case Studies
+# Application Areas for Full-Stack Alignment
 
-To demonstrate the practical value of explicit norm and value representations, we examine five representative socio-technical alignment challenges. These domains illustrate both the limitations of existing approaches and the potential for our proposed framework to address previously intractable problems. In each case, we show how structured representations of norms and values offer novel solutions where preference/utility frameworks and free-form text specifications have demonstrably fallen short.
+To demonstrate the practical value of explicit norm and value representations, we examine five representative socio-technical alignment challenges. These application areas illustrate both the limitations of existing approaches and the potential for our proposed framework to address previously intractable problems. In each case, we show how structured representations of norms and values offer novel solutions where preference/utility frameworks and naive value-representations have demonstrably fallen short.
 
 ## 4.1 AI Agents that Represent, Respect, and Steward User Values
 

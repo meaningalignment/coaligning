@@ -41,9 +41,9 @@ Finally, the ultimate test of any framework for human agency is how well the sys
 The SIDT achieved prominence because it offered mathematical expressiveness and parsimony. These theories were "good enough" for the institution design challenges of their era. However, contemporary AI alignment challenges require novel governance forms that the SIDT cannot adequately conceptualize or analyze. We need approaches that better reflect how humans actually relate to values, norms, and social coordination.
 
 
-## 2.2 Inadequacy of Prompt & Self-Critique-Based Approaches
+## 2.2 Inadequacy of Naive Value-Representations
 
-While the SIDT represents the dominant paradigm for institutional design, an alternative has emerged for AI alignment: prompt-based and self-critique approaches that use natural language to guide AI systems. However, these text-based approaches also have fundamental limitations for robust socio-technical alignment. We identify three primary inadequacies:
+While the SIDT represents the dominant paradigm for institutional design, an alternative has emerged for AI alignment: prompt-based and self-critique approaches that use natural language to guide AI systems. However, these naive value-representations also have fundamental limitations for robust socio-technical alignment. These approaches rely on arbitrary textual representations without structural guarantees for value coherence. We identify three primary inadequacies:
 
 ### 2.2.1 Specification Challenges
 
@@ -55,7 +55,7 @@ In social contexts, these specification challenges are compounded by additional 
 
 1. **Information Source Ambiguity**: When agents engage in extended dialogues with users, distinguishing genuine user preferences from model-suggested options becomes difficult. If a user expresses satisfaction with an AI's behavior, this may reflect successful preference elicitation or subtle manipulation of the user's expressed preferences.
 
-2. **Collective Preference Vagueness**: In social choice settings where multiple stakeholders are involved, text-based approaches often yield vague statements that lack actionable specificity. Political values expressed in natural language tend toward aspirational generalities (e.g., "hope," "freedom") that provide minimal guidance for concrete decision-making.
+2. **Collective Preference Vagueness**: In social choice settings where multiple stakeholders are involved, naive value-representations often yield vague statements that lack actionable specificity. Political values expressed in natural language tend toward aspirational generalities (e.g., "hope," "freedom") that provide minimal guidance for concrete decision-making.
 
 As documented in our analysis of Constitutional AI approaches[^10]:
 
