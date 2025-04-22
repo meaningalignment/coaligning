@@ -1,16 +1,14 @@
-# Research & Implementation Roadmap
+# Full Stack Alignment Research Proposal
 
-We here coin the term "Full-Stack Alignment" to cover three things:
+Building on our definition of Full-Stack Alignment as the co-alignment of AI systems and institutions across the entire societal stack using thick models of choice, we now present a comprehensive research and implementation strategy.
 
-1. The provocative suggestion that many socio-technical alignment challenges can be made tractable by migrating from preference/utility frameworks to a new institution design toolkit based on explicit modeling of norms and values.
+The Full Stack Alignment Research Proposal addresses the unfortunate fact that, unless we simultaneously align AI models themselves and institutions at various levels of the stack, the incentives at one layer (say, geopolitics) will produce pressure to misalign the other layers (say, ruthless military AI).
 
-2. The unfortunate fact that, unless we simultaneously align AI models themselves and institutions at various levels of the stack, the incentives at one layer (say, geopolitics) will produce pressure to misalign the other layers (say, ruthless military AI).
-
-3. A plan for research and societal transformation: to bring this work from basic research, through various legitimation steps, to policy proposals with broad support among experts and the public, and finally to broad implementation in new algorithms, institutions, and mechanisms—all in time to head off the socio-technical threats before AI agents cause widespread harms.
+This proposal outlines a path to bring this work from basic research, through various legitimation steps, to policy proposals with broad support among experts and the public, and finally to broad implementation in new algorithms, institutions, and mechanisms—all in time to head off the socio-technical threats before AI agents cause widespread harms.
 
 In what follows, we outline a research and implementation strategy for moving towards a society with social systems and institutions built on new frameworks for values and norms.
 
-We argue that theoretical research alone in the five areas outlined in our case studies is not sufficient. For an AI lab to adopt a mechanism built on these new foundations, three key conditions must be met: 
+We argue that theoretical research alone in the five application areas outlined is not sufficient. For an AI lab to adopt a mechanism built on these new foundations, three key conditions must be met: 
 
 1. Expert consensus must exist that the solution is the best available approach
 2. A clear flagship implementation must exist as a concrete example
