@@ -2,22 +2,19 @@
 
 The advantage with preference relations or text strings, is they can represent anything. No assumptions get baked in about what values are, when they apply, or about the nature of the good (what kinds of attractor states values tend towards).
 
-But this is also a great weakness: it means an alignment target specified in either of these ways can be pushed in any direction, arbitrarily. It can be polluted by considerations we wouldn’t, on reflection, want to call values -- considerations which don’t point to or converge towards anything anyone would call good.
+But this is also a great weakness: it means an alignment target specified in either of these ways can be pushed in any direction, arbitrarily. It can be polluted by considerations we wouldn't, on reflection, want to call values -- considerations which don't point to or converge towards anything anyone would call good.
 
-This is one root cause of the problems with SIDT and the naive textual approaches catalogued in Section 2: it is why addictive or manipulated behaviours can masquerade as bona-fide “values”, why zero-sum brinkmanship in negotiation is mistaken for “optimal cooperation”, why ideological signals like 'Defund the Police' or 'Family Values' get treated as fundamental values rather than tribal affiliations, and why vague aspirational statements
-  like 'AI should always do the right thing' offer minimal practical guidance while creating an illusion of normative constraint.
+This is one root cause of the problems with SIDT and the naive textual approaches catalogued in Section 2: it is why addictive or manipulated behaviours can masquerade as bona-fide "values", why zero-sum brinkmanship in negotiation is mistaken for "optimal cooperation", why ideological signals like 'Defund the Police' or 'Family Values' get treated as fundamental values rather than tribal affiliations, and why vague aspirational statements like 'AI should always do the right thing' offer minimal practical guidance while creating an illusion of normative constraint.
 
-So, it makes sense to relax this constraint and see if we can do better.
+To overcome these limitations, we need a framework that takes a substantive stance on what values and norms actually are, rather than treating all preference relations or text strings as equally valid candidates.
 
-This section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. We first outline two complementary design strategies (identifying value-patterns and structural tightening) and then preview how these tools integrate with familiar methods in economics and machine learning.
+## The Central Proposal: Full-Stack Alignment via Explicit Representations
 
-The limitations of both preference-based and text-based paradigms point to a common inadequacy: neither takes a substantive stance on what norms and values are meant to point towards. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative.
+This section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. Rather than leaving normative content to be inferred ad hoc by models or users, we advocate for **explicit**, **accountable**, and **structured** representations of what matters.
 
-We will argue that socio-technical alignment becomes tractable when we adopt **explicit, structured representations of norms and values**—representations that can be inspected, verified, and deliberated over.
+What distinguishes our approach is the commitment to modeling values and norms with discernible structure that can be inspected, verified, and deliberated over. This epistemological stance is necessary for addressing high-stakes socio-technical alignment challenges precisely because it overcomes the key limitations of both preference-based and text-based paradigms: neither of those paradigms takes a substantive stance on what norms and values are meant to point towards. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative.
 
-What distinguishes our approach is the commitment to **explicit**, **accountable**, and **structured** representations of what matters, rather than leaving normative content to be inferred ad hoc by models or users. This epistemological stance—that values and norms have discernible structure that must be explicitly modeled—is, we argue, necessary for addressing high-stakes socio-technical alignment challenges.
-
-Here are two fundamental ways to implement this approach:
+Our central thesis is that genuine values and norms have inherent structure that can be represented explicitly. This structure manifests in two key ways, each corresponding to a complementary implementation strategy:
 
 ## 1. Identifying Convergent Value Patterns
 
@@ -54,4 +51,4 @@ These two approaches to structured normative representation need not take us too
 
 - RL-based training methods which condition on reasoning traces can still be used, but instead of having a human annotator or an unprincipled expert model evaluate the reasoning, it can be evaluated more systematically via formal models of values-based reasoning.
 
-Each approach 'takes a stance' on what norms and values are, rather than leaving everything to be inferred ad hoc from preferences or prompts. This commitment to explicit structure is essential for addressing the socio-technical alignment challenges that define our time. In the following section, we demonstrate how these techniques apply in practice through five case studies spanning diverse domains.
+Each approach 'takes a stance' on what norms and values are, rather than leaving everything to be inferred ad hoc from preferences or prompts. This commitment to explicit structure directly addresses the three key failures identified in Section 2: it provides transparency where there was opacity, normative structure where there was a-normativity, and contextual grounding where there was context-blindness. In the following section, we demonstrate how these techniques apply in practice through five case studies spanning diverse domains, showing how explicit norm and value representations can overcome the limitations of both preference-based and naive textual approaches.
