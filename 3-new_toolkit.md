@@ -1,8 +1,17 @@
 # A New Toolkit: Explicit Norm & Value Representations
 
-Having seen why existing approaches break down, this section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. We first outline two complementary design strategies (identifying value-patterns and structural tightening) and then preview how these tools integrate with familiar methods in economics and machine learning.
+The advantage with preference relations or text strings, is they can represent anything. No assumptions get baked in about what values are, when they apply, or about the nature of the good (what kinds of attractor states values tend towards).
 
-The limitations of both preference-based and text-based paradigms point to a common inadequacy: neither takes a substantive stance on what norms and values are. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative.
+But this is also a great weakness: it means an alignment target specified in either of these ways can be pushed in any direction, arbitrarily. It can be polluted by considerations we wouldn’t, on reflection, want to call values -- considerations which don’t point to or converge towards anything anyone would call good.
+
+This is one root cause of the problems with SIDT and the naive textual approaches catalogued in Section 2: it is why addictive or manipulated behaviours can masquerade as bona-fide “values”, why zero-sum brinkmanship in negotiation is mistaken for “optimal cooperation”, why ideological signals like 'Defund the Police' or 'Family Values' get treated as fundamental values rather than tribal affiliations, and why vague aspirational statements
+  like 'AI should always do the right thing' offer minimal practical guidance while creating an illusion of normative constraint.
+
+So, it makes sense to relax this constraint and see if we can do better.
+
+This section introduces the central proposal of the paper—Full‑Stack Alignment via *explicit, structured representations* of norms and values. We first outline two complementary design strategies (identifying value-patterns and structural tightening) and then preview how these tools integrate with familiar methods in economics and machine learning.
+
+The limitations of both preference-based and text-based paradigms point to a common inadequacy: neither takes a substantive stance on what norms and values are meant to point towards. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative.
 
 We will argue that socio-technical alignment becomes tractable when we adopt **explicit, structured representations of norms and values**—representations that can be inspected, verified, and deliberated over.
 
