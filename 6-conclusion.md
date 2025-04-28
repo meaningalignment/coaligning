@@ -10,31 +10,7 @@ First, we have identified fundamental limitations in existing alignment paradigm
 
 Second, we have developed a new toolkit centered on explicit norm and value representations. We outlined two fundamental approaches: (1) defining attractor points toward which values and norms naturally trend, such as Kantian equilibria and self-other generalizations, and (2) tightening the structure of what counts as a norm or value, as exemplified by constitutive attentional policies. These approaches enable us to distinguish genuine values from instrumental considerations, strategic concerns, and ideological markers.
 
-Third, we demonstrated through five case studies how these structured representations can address previously intractable alignment challenges: preventing value collapse in personal AI assistants, developing normatively competent agents, enabling win-win AI negotiation, creating a meaning-preserving economy, and designing democratic institutions that can operate at AI speed.
-
-## Priority Research Directions
-
-Building on our case studies, we identify five concrete technical directions that warrant immediate investigation:
-
-### Values-Based Reinforcement Learning
-
-As highlighted in our AI value stewardship case study, we need reinforcement learning methods that optimize for constitutive values rather than instrumental preferences. This requires formalizing how structured value representations guide action selection and developing evaluative understanding in AI systems to comprehend thick evaluative concepts rather than merely manipulating them.
-
-### Norm-Enriched Architectures
-
-For normatively competent AI, we must extend standard reinforcement learning frameworks to incorporate structured norm representations. This includes developing multi-agent training environments where systems learn to identify and adapt to emergent norms, and implementing formal models of universalization and virtual bargaining that can guide AI decision-making.
-
-### Values-Interpretable Negotiation Systems
-
-To enable win-win AI negotiation, we need architectures whose values and commitments can be extracted and communicated in verifiable form. This requires designing strategy-proof revelation mechanisms that incentivize truthful value disclosure while preventing exploitation, and developing integrity verification methods to assess whether agents reliably act in accordance with their stated values.
-
-### Value-Aligned Economic Mechanisms
-
-For a meaning-preserving economy, we need robust, fraud-resistant methods for measuring meaningful human experiences across diverse domains. This includes designing market structures that efficiently allocate resources to activities that contribute to human flourishing and creating network representations of how economic activities relate to human values.
-
-### Deliberative Value Aggregation
-
-To enable democratic governance at AI speed, we must develop methods to combine individual value graphs into legitimate collective representations. This includes creating systems that generate auditable, contestable explanations for regulatory decisions grounded in population-level values and designing adaptive legitimation mechanisms that maintain democratic accountability for high-speed regulatory actions.
+Third, we demonstrated through five examples studies how these structured representations can address previously intractable alignment challenges: preventing value collapse in personal AI assistants, developing normatively competent agents, enabling win-win AI negotiation, creating a meaning-preserving economy, and designing democratic institutions that can operate at AI speed.
 
 ## Toward a New Institutional Paradigm
 
