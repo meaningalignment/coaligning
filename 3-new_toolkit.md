@@ -16,15 +16,15 @@ What distinguishes our approach is the commitment to modeling values and norms w
 
 Our central thesis is that genuine values and norms have inherent structure that can be represented explicitly. This structure manifests in two key ways, each corresponding to a complementary implementation strategy:
 
-## 1. Identifying Convergent Value Patterns
+## Approach 1: Convergent Value Attractors
 
-The first approach identifies specific patterns that consistently emerge when analyzing values and norms across different scenarios. Rather than treating all possible preferences as equally valid, this approach recognizes that certain values reliably appear and stabilize across diverse contexts.
+The first approach identifies **convergent value attractors**—patterns that consistently emerge when analysing values and norms across different scenarios. Rather than treating all possible preferences as equally valid, this approach recognises that certain values reliably appear and stabilise across diverse contexts.
 
 Recent research on self-other generalization demonstrates this approach by focusing on considerations that remain consistent when viewed from multiple perspectives. For example, a value like "honesty" tends to be recognized across different agents, contexts, and time periods. This is not coincidental - as Velleman argues in his philosophical works (1989, 2009), genuine values emerge through a natural filtering process: considerations that remain beneficial across multiple perspectives and contexts become recognized as values, while merely instrumental concerns or temporary preferences don't achieve this stability.
 
-Similarly, when modeling cooperation, we can move beyond standard game theory approaches like Nash equilibria by using frameworks such as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023). These frameworks identify cooperation patterns where agents consider "what if everyone like me acted this way?" rather than just maximizing personal outcomes. This approach reveals how certain cooperative norms naturally emerge as stable patterns in social interactions, even without external enforcement.
+Similarly, when modelling cooperation, we can move beyond standard game-theory approaches like Nash equilibria by using frameworks such as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023). These frameworks uncover cooperation attractors in which agents ask “what if everyone like me acted this way?” rather than merely maximising personal outcomes. In this light, certain cooperative norms appear as convergent value attractors that arise and stabilise in social interactions even without external enforcement.
 
-## 2. Tightening the Structure of Norms and Values
+## Approach 2: Structural Tightening of Norms & Values
 
 The second approach characterizes the structure of norms or values more precisely, so as to exclude some coherent preference-relations or text strings that would not qualify as genuine values or norms.
 
