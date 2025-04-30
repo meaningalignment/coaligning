@@ -34,13 +34,13 @@ Another example is when norms are structured as formal constraint systems or fil
 
 Whichever you prefer, these representations can enable thick justificatory frameworks -- approaches to reasoning about values and actions that adopt more substantive accounts of normative justification. Choices are deemed reasonable insofar as they can be justified according to contextually-relevant criteria, such as:
 
-[LOGIC THING]
+Unlike the arbitrary interpretation paths of free-form text specifications discussed in section 2.2.2, structured representations unlock a plethora of formal reasoning approaches from philosophy, logic, and computer science. These include deontic logics for reasoning about obligations, defeasible reasoning frameworks for non-monotonic inference, formal argumentation systems, and theorem-proving methods that can provide verifiable guarantees about normative reasoning. With these formal tools, an AI system can be validated against specific criteria such as:
 
    - Whether the choice promotes one's constitutive values
    - Whether it upholds the standards of one's social role
    - Whether it could be reasonably rejected by others affected by the choice
 
-These structured representations provide guardrails that keep normative reasoning on track, preventing it from being hijacked by optimization processes or strategic manipulation.
+These structured representations can provide guardrails that keep normative reasoning on track, preventing it from being hijacked by optimization processes or strategic manipulation.
 
 ## Integration with Existing Methods
 
