@@ -26,22 +26,30 @@ We can identify various types of attractors in value space, with current researc
 
 Beyond these established patterns, promising directions for further exploration include **autocatalysis-of-flourishing** (where value-aligned actions create positive feedback loops that further enhance flourishing) and **capability-expansion-networks** (where values systematically increase what agents can accomplish together beyond their individual limitations).
 
-Taken together, these empirical filters help *identify* which candidate values deserve explicit status.  The next approach tackles the complementary problem of **how to represent** such values so they remain stable under optimisation pressure.
+Taken together, these empirical filters help *identify* which candidate values deserve explicit status. However, determining what values are ultimately about is only half the challenge. Even once we've identified genuine value attractors, we need safeguards to ensure those values remain stable under the pressure of optimization processes and don't drift toward arbitrary targets.
 
 ## Approach 2: The Form of Values and Good Normative Reasoning
 
-This approach addresses the **form** question by establishing formal constraints on the representation of values and norms, or on reasoning about them. It *specifies* how to encode the previously identified values, tightening the representational language so that not every coherent preference or slogan qualifies as a norm.
+This second approach tackles the complementary **form** question by establishing formal constraints on how values and norms are represented and reasoned about. While the first approach helps us distinguish authentic values from mere preferences based on content, this approach provides structured frameworks for encoding those values so they resist misinterpretation and manipulation.
 
-Instead of representing the value(s) associated with a choice in terms of one or more utility functions, we can represent values as sets of *constitutive attentional policies* (Klingefjord, Lowe, & Edelman, 2024)—criteria that one intrinsically attends to when making decisions guided by a particular value. Such a specification language:
+Research in this area has developed several distinct formal frameworks:
 
-- Distinguishes constitutive from instrumental considerations
-- Excludes tribal affiliations and ideological markers
-- Represents the phenomenology of value-guided attention
-- Enables verification of reasoning chains
+1. **Constitutive attentional policies**: Instead of representing values associated with choices as utility functions, we can encode them as sets of criteria that agents intrinsically attend to when making decisions guided by that value (Klingefjord, Lowe, & Edelman, 2024). This specification language:
 
-Similarly, a norm could be structured as a constraint system, or as a filter for altering a plan of action so as to comply with the norm. Such schemas for values or norms protect alignment targets from pollution by arbitrary external goals or social pressures that cannot be properly characterized as norms or values.
+   - Distinguishes constitutive from instrumental considerations
+   - Excludes tribal affiliations and ideological markers
+   - Represents the phenomenology of value-guided attention
+   - Enables verification of reasoning chains
 
-These structured representations enable more robust forms of normative reasoning about potential actions. Rather than axiomatizing rational choice via completeness and independence, we can adopt *thicker accounts of normative justification*, where choices are reasonable insofar as they can be justified according to contextually-relevant criteria (e.g., Does the choice promote one's values? Does it uphold the standards of one's social role? Is it reasonably rejectable by others affected by the choice?).
+2. **Normative constraint systems**: Norms can be structured as formal constraint systems or filters that modify plans of action to ensure compliance. These systems specify boundary conditions that acceptable actions must satisfy, creating a clear demarcation between norm-compliant and norm-violating behavior. Such schemas protect alignment targets from pollution by arbitrary external goals or social pressures that cannot be properly characterized as legitimate norms.
+
+3. **Thick justificatory frameworks**: Rather than axiomatizing rational choice via completeness and independence, these frameworks adopt more substantive accounts of normative justification. Choices are deemed reasonable insofar as they can be justified according to contextually-relevant criteria, such as:
+   
+   - Whether the choice promotes one's constitutive values
+   - Whether it upholds the standards of one's social role
+   - Whether it could be reasonably rejected by others affected by the choice
+
+These structured representations provide guardrails that keep normative reasoning on track, preventing it from being hijacked by optimization processes or strategic manipulation.
 
 ## Integration with Existing Methods
 
