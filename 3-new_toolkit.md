@@ -1,4 +1,4 @@
-# A New Toolkit: Explicit Norm & Value Representations
+# 3 Towards a New Toolkit
 
 The advantage with preference relations or free-form text strings, is they can represent anything. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative. No assumptions get baked in about what values are, when they apply, or about the nature of the good (what kinds of attractor states values tend towards).
 
@@ -6,9 +6,7 @@ Yet that's also their chief drawback: an alignment target expressed this way can
 
 This is one root cause of the problems with SIDT and the naive textual approaches catalogued in Section 2: it explains why addictive or manipulated behaviours can masquerade as bona-fide *values*, why zero-sum brinkmanship is mistaken for "optimal cooperation," why slogans like "Defund the Police" or "Abortion is Murder" might be read as instructions rather than tribal badges, and why vague aspirations such as "AI should always do the right thing" create an illusion of constraint while offering little guidance.
 
-To overcome these limitations, we need a framework that takes a stance on what values and norms are, or are about, rather than treating all preference relations or text strings as equally valid candidates.
-
-In other words, we must say more about **normativity itself**.  There are two places to start: (a) We can try to constrain the **content** of normativity by declaring what values or norms are *for*, what they're supposed to *point at*, or how we'd *recognize a good one*; or (b) alternatively, we can constrain the **form** of the normative, finding *explicit, structured representations* of norms and values that resist drift in arbitrary directions.
+To overcome these limitations, we need a framework that takes a stance on what values and norms are, or are about, rather than treating all preference relations or text strings as equally valid candidates. In other words, we must say more about **normativity itself**.  There are two places to start: (a) We can try to constrain the **content** of normativity by declaring what values or norms are *for*, what they're supposed to *point at*, or how we'd *recognize a good one*; or (b) alternatively, we can constrain the **form** of the normative, finding *explicit, structured representations* of norms and values that resist drift in arbitrary directions.
 
 ## Approach 1: Attractors in Value Space
 

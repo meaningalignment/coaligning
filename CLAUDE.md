@@ -58,3 +58,12 @@ This academic paper on Full-Stack Alignment (FSA) has the following structure:
 - After terminology changes, check all relevant files for needed updates
 - Maintain consistent naming across introduction, body sections, and conclusion
 - Ensure section headings align with content descriptions in introduction/conclusion
+- When referencing other sections, use precise callbacks that match the target section's key concepts
+- Ensure parallel structures across the paper (especially in critiques and their corresponding solutions)
+
+### Structural Refinement
+- When identifying organizational issues, suggest multiple alternative frameworks
+- For complex critiques, organize by philosophical dimensions rather than surface features
+- When sections contain overlapping critiques, identify and eliminate redundancies
+- Use synthesizing conclusions that tie together related critiques rather than listing them separately
+- Maintain balance between abstract critique and concrete examples
