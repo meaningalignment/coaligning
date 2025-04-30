@@ -11,6 +11,7 @@ This academic paper on Full-Stack Alignment (FSA) has the following structure:
 - 5-roadmap.md: Research and implementation strategy
 - 6-conclusion.md: Summary and future directions
 - 7-footnotes.md: References and annotations
+- 8-related_work.md: Comparisons with adjacent fields
 
 ## Tone
 
@@ -18,3 +19,25 @@ This academic paper on Full-Stack Alignment (FSA) has the following structure:
 - Focus on technical precision and conceptual clarity
 - Present critiques firmly but constructively
 - Emphasize practical applications alongside theoretical foundations
+
+## Collaboration Approach
+
+### Concept Refinement
+- When concepts feel vague, generate multiple interpretations (4-8)
+- When exploring alternatives, provide brief descriptions rather than long paragraphs
+- For important concepts, develop multiple choice options to clarify meaning
+
+### Terminology Development
+1. Brainstorm alternative phrasings (5-8 options) when renaming concepts
+2. Test interpretations against the paper's existing framework
+3. Verify consistency of terminology changes across all relevant files
+
+### Content Structuring
+- When adding new content, insert it in a way that maintains logical flow
+- For key ideas like "attractors in value space", provide concrete examples (4+)
+- Create clear conceptual distinctions with enumerated lists
+
+### Consistency Management
+- After terminology changes, check all relevant files for needed updates
+- Maintain consistent naming across introduction, body sections, and conclusion
+- Ensure section headings align with content descriptions in introduction/conclusion

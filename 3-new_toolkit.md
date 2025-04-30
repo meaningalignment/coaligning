@@ -12,21 +12,25 @@ To overcome these limitations, we need a framework that takes a stance on what v
 
 In other words, we must say more about **normativity itself**.  There are two places to start: (a) We can try to constrain the **content** of normativity – what values or norms are *for*, what they're supposed to *point at*, how we'd *recognize a good one*; or (b) we can constrain the **form** of the normative, finding *explicit, structured representations* of norms and values that resist drift in arbitrary directions.
 
-## Approach 1: Convergent Value Attractors
+## Approach 1: Attractors in Value Space
 
  The first approach identifies specific patterns that consistently emerge when analyzing values and norms across different scenarios. Rather than treating all possible preferences as equally valid, this approach recognizes that certain values reliably appear and stabilize across diverse contexts.
 
-This approach tackles the **content** question.  It *discovers* **convergent value attractors**—value patterns that consistently surface across perspectives, contexts, and time. Rather than treating every preference as equally valid, it identifies the values that reliably re-emerge and stabilise.
+This approach tackles the **content** question by proposing that values are fundamentally oriented toward certain structural patterns or 'attractors in value space.' These attractors represent organizing principles that help us understand what values are ultimately 'about,' offering criteria for distinguishing authentic normative considerations from mere preferences, tribal markers, or passing desires. Rather than treating all possible preferences as equally valid candidates for values, this framework takes a substantive stance on the nature of normativity itself.
+
+It *identifies* **attractors in value space**—functional patterns that help distinguish genuine values from mere preferences. Rather than treating every preference as equally valid, it identifies the values that reliably re-emerge and stabilise.
+
+We can identify at least four types of attractors in value space: (1) Values-as-compression-across-contexts, which efficiently encode 'goodness' across diverse scenarios; (2) Coordination-equilibria, which emerge as optimal solutions to recurring social cooperation problems; (3) Autocatalysis-of-flourishing, where value-aligned actions create conditions that further enhance flourishing; and (4) Capability-expansion-networks, which systematically increase what agents can accomplish together beyond individual limitations.
 
 Recent research on self-other generalization demonstrates this approach by focusing on considerations that remain consistent when viewed from multiple perspectives. For example, a value like "honesty" tends to be recognized across different agents, contexts, and time periods. This is not coincidental - as Velleman argues in his philosophical works (1989, 2009), genuine values emerge through a natural filtering process: considerations that remain beneficial across multiple perspectives and contexts become recognized as values, while merely instrumental concerns or temporary preferences don't achieve this stability.
 
-Similarly, when modelling cooperation, we can move beyond standard game-theory approaches like Nash equilibria by using frameworks such as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023). These frameworks uncover cooperation attractors in which agents ask “what if everyone like me acted this way?” rather than merely maximising personal outcomes. In this light, certain cooperative norms appear as convergent value attractors that arise and stabilise in social interactions even without external enforcement.
+Similarly, when modelling cooperation, we can move beyond standard game-theory approaches like Nash equilibria by using frameworks such as *Kantian equilibria* (Roemer, 2010) or *dependency equilibria* (Spohn, 2003; Treutlein, 2023). These frameworks uncover cooperation attractors in which agents ask “what if everyone like me acted this way?” rather than merely maximising personal outcomes. In this light, certain cooperative norms appear as attractors in value space that stabilize in social interactions even without external enforcement.
 
 Taken together, these empirical filters help *identify* which candidate values deserve explicit status.  The next approach tackles the complementary problem of **how to represent** such values so they remain stable under optimisation pressure.
 
-## Approach 2: Structural Tightening of Norms & Values
+## Approach 2: The Form of Values and Good Normative Reasoning
 
-This approach addresses the **form** question.  It *specifies* how to encode the previously identified values, tightening the representational language so that not every coherent preference or slogan qualifies as a norm.
+This approach addresses the **form** question by establishing formal constraints on the representation of values and norms, or on reasoning about them. It *specifies* how to encode the previously identified values, tightening the representational language so that not every coherent preference or slogan qualifies as a norm.
 
 Instead of representing the value(s) associated with a choice in terms of one or more utility functions, we can represent values as sets of *constitutive attentional policies* (Klingefjord, Lowe, & Edelman, 2024)—criteria that one intrinsically attends to when making decisions guided by a particular value. Such a specification language:
 
