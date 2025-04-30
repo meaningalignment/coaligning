@@ -43,19 +43,21 @@ The SIDT achieved prominence because it offered mathematical expressiveness and 
 
 ## 2.2 Inadequacy of Naive Value-Representations
 
-While the SIDT represents the dominant paradigm for institutional design, an alternative has emerged for AI alignment: prompt-based and self-critique approaches that use natural language to guide AI systems. However, these naive value-representations also have fundamental limitations for robust socio-technical alignment. These approaches rely on arbitrary textual representations without structural guarantees for value coherence. We identify three primary inadequacies:
+While the SIDT relies on mathematics at the expense of normative understanding, natural language approaches swing to the opposite extreme. From AI constitutions to alignment prompts, these approaches encode values as free-form text—simple to author but destined to break under institutional pressure. The core problem is not that these specifications use natural language, but that they lack any principled structure to constrain interpretation or guide reasoning.
+
+These naive approaches turn alignment into a glorified game of "guess what I mean," where AI systems must extract coherent principles from ambiguous instructions and apply them consistently across novel contexts. This methodology might work for low-stakes applications, but it fundamentally cannot scale to the institutional challenges of socio-technical alignment. Three critical vulnerabilities illustrate why:
 
 ### 2.2.1 Specification Challenges
 
-Capturing adequate specifications through prompts or natural language statements presents significant difficulties. When specifications are gathered in a single interaction, it is challenging to achieve the right level of detail or verify that users have effectively communicated their intent. These problems will only intensify as AI agents undertake more complex actions and as chains of reasoning and self-critique interpose between textual instructions and resultant behaviors.
+Naive text-based alignment begins with an impossible task: distilling complex human values into unambiguous instructions. Even with iterative refinement, text specifications inevitably suffer from both under- and over-specification—simultaneously too vague in critical areas and too specific in others. These problems compound exponentially as AI systems take on more complex responsibilities, where chains of reasoning create distance between stated intentions and resultant behaviors.
 
 Having agents request clarification through follow-up questions merely postpones the fundamental problem. Without structured representations of values or norms, it becomes difficult to determine when sufficient information has been gathered to guide decision-making appropriately. The model lacks clear criteria for understanding what constitutes an adequate representation of a user's values or the norms appropriate to a context.
 
-In social contexts, these specification challenges are compounded by additional factors:
+This specification problem manifests in several ways:
 
-1. **Information Source Ambiguity**: When agents engage in extended dialogues with users, distinguishing genuine user preferences from model-suggested options becomes difficult. If a user expresses satisfaction with an AI's behavior, this may reflect successful preference elicitation or subtle manipulation of the user's expressed preferences.
+1. **Elicitation Confusion**: In extended dialogues between users and AI systems, it becomes increasingly difficult to distinguish genuine user preferences from model-suggested options that users simply accept. User satisfaction may reflect successful preference elicitation or subtle manipulation, with no clear way to tell the difference.
 
-2. **Collective Preference Vagueness**: In social choice settings where multiple stakeholders are involved, naive value-representations often yield vague statements that lack actionable specificity. Political values expressed in natural language tend toward aspirational generalities (e.g., "hope," "freedom") that provide minimal guidance for concrete decision-making.
+2. **Aspirational Vagueness**: In social contexts where multiple stakeholders are involved, natural language representations tend toward abstract principles that sound appealing but provide minimal concrete guidance. Constitutional approaches often produce statements like "The AI should always do the right thing" or "The AI should be fun"—principles that are impossible to operationalize consistently across contexts and stakeholders.
 
 As documented in our analysis of Constitutional AI approaches[^10]:
 
@@ -75,9 +77,9 @@ As documented in our analysis of Constitutional AI approaches[^10]:
 
 ### 2.2.2 Reasoning Verification Problems
 
-Even if adequate specifications could be obtained in natural language, verifying that an AI system reasons appropriately about those specifications presents another challenge. When values and norms are represented as unstructured text, the system's reasoning processes can connect to that text in arbitrary ways that resist systematic verification.
+Even if we could obtain adequate natural language specifications, verifying that an AI system correctly reasons about these specifications remains problematic. Without structured representations, an AI's reasoning processes can connect to text in arbitrary ways that resist systematic verification.
 
-In philosophy, logic, and cognitive science, formal models exist for reasoning about values and norms—models that connect values to improved values, link values to appropriate actions, or derive permitted actions from norms. These formal models can validate an AI system's normative reasoning, but they operate on structured representations rather than arbitrary text strings. Without such structured representations, there is no principled way to verify that an AI system's reasoning about values and norms is sound.
+While formal models exist for reasoning about values and norms—models that can validate whether normative reasoning is sound—they require structured inputs rather than arbitrary text. Free-form language allows too many interpretive pathways, making it impossible to guarantee consistent application of principles across different contexts and time periods.
 
 ### 2.2.3 Vulnerability to Social Pressure
 
