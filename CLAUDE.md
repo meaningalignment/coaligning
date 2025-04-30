@@ -26,6 +26,7 @@ This academic paper on Full-Stack Alignment (FSA) has the following structure:
 - When concepts feel vague, generate multiple interpretations (4-8)
 - When exploring alternatives, provide brief descriptions rather than long paragraphs
 - For important concepts, develop multiple choice options to clarify meaning
+- Offer philosophical foundations for key concepts (e.g., "if values are for something...")
 
 ### Terminology Development
 1. Brainstorm alternative phrasings (5-8 options) when renaming concepts
@@ -36,6 +37,22 @@ This academic paper on Full-Stack Alignment (FSA) has the following structure:
 - When adding new content, insert it in a way that maintains logical flow
 - For key ideas like "attractors in value space", provide concrete examples (4+)
 - Create clear conceptual distinctions with enumerated lists
+- Maintain parallel structure between related sections (e.g., content vs. form)
+- Distinguish between well-established examples and exploratory concepts
+
+### Flow Improvement
+- Identify and fix repetition and definitional inconsistencies
+- Create explicit transitions between major sections that explain their relationship
+- Ensure balanced treatment of parallel concepts (similar depth, structure, examples)
+- Merge related concepts under common frameworks instead of treating separately
+- Analyze argumentative flow by breaking down an entire section's structure
+
+### Section Balancing
+- Mirror structure across parallel sections (e.g., numbered items in both approaches)
+- Balance depth of examples - give similar treatment to similar concepts
+- Ensure transitions connect sections by explaining how they build on each other
+- Create visual parallelism with consistent formatting (bullet points, numbering)
+- Add concluding sentences that tie sections back to the overall argument
 
 ### Consistency Management
 - After terminology changes, check all relevant files for needed updates
