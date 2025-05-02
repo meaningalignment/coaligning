@@ -1,0 +1,36 @@
+\section{Related Work}
+The literature on alignment, mechanism design, ethics, and multi‑agent learning is vast. This appendix situates \textit{Full‑Stack Alignment (FSA)} concepts alongside the closest ideas in adjacent fields and highlights the delta each contribution adds. The table is meant as a navigational aide rather than an exhaustive survey.
+
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular}{p{0.22\textwidth}p{0.22\textwidth}p{0.22\textwidth}p{0.22\textwidth}}
+\toprule
+\textbf{FSA concept} & \textbf{Closest idea in economics / mechanism design} & \textbf{Closest idea in AI / cooperative AI} & \textbf{Key delta introduced by FSA} \\
+\midrule
+\textbf{Constitutive attentional policy} (value \textit{card}) & Preference refinement / lexicographic utilities & RLHF preference model; Chain‑of‑Thought rationales & Explicitly distinguishes \textit{constitutive} from \textit{instrumental} considerations and is designed for auditability \& endorsement, not just optimisation. \\
+\midrule
+\textbf{Moral graph} (value graph at population scale) & Welfare function with interpersonal comparisons; Social welfare ordering & Value aggregation via voting models, e.g. quadratic voting; democratic RL & Captures \textit{relationships} (refines, conflicts, supersedes) among values + supports contestability; not a single scalar objective. \\
+\midrule
+\textbf{Attractors in value space / self‑other generalisation} & Kantian equilibrium (Roemer 2010), dependency equilibria & Cooperative MARL regularisers (e.g. LOLA, Opponent Shaping) & Treats convergence criteria as \textit{normative} fixed points rather than merely strategic equilibria. \\
+\midrule
+\textbf{Integrity \& value revelation} & Costly signalling; cheap‑talk equilibria with credence & Open‑source game theory; model watermarking & Middle ground: share structured value commitments (partial source code) that are verifiable but keep strategic internals private. \\
+\midrule
+\textbf{Norm‑augmented Markov games} & Social \& moral preferences in repeated games & Normative RL, Social Influence bonus & Formal separation between individual pay‑offs and population norms enables rapid norm learning \& adaptation. \\
+\midrule
+\textbf{Resource‑rational contractualism} & Rawlsian contractarianism, bargaining solutions & Virtual bargaining (Jara‑Ettinger et al.) & Implements \textit{bounded} universalisation that scales to LLM reasoning budgets. \\
+\midrule
+\textbf{Outcome‑based contracting for meaning} & Dynamic principal–agent contracts & Alignment via reward models of human satisfaction & Pay‑outs keyed to \textit{measured flourishing} using structured value schema; resists preference manipulation. \\
+\midrule
+\textbf{Democratic regulator at AI speed} & Delegative / liquid democracy; participatory budgeting & Alignment assemblies; LLM policy bots & Builds legitimacy on population‑level moral graph and provides verifiable reasoning traces in real time. \\
+\midrule
+\textbf{Values‑interpretable architectures} & Mechanism transparency (auditability) & Interpretable self‑explaining neural networks & Ties explanations to \textit{formal value objects} rather than post‑hoc saliency maps. \\
+\midrule
+\textbf{Thick evaluative concept competence} & Sen's capability approach & Expression of moral concepts in LLMs (Anthropic, DeepMind studies) & Requires models to map concepts to structured attentional policies, enabling verification and refinement. \\
+\bottomrule
+\end{tabular}
+\caption{Comparison of FSA concepts with related work in economics and AI}
+\label{tab:related_work}
+\end{table*}
+
+\textit{Citations (representative):} Gul \& Pesendorfer 2001; Bewley 2002; Fehr \& Schmidt 1999; Tversky \& Kahneman 1992; Roemer 2010; Oesterheld 2022; Jara‑Ettinger 2023; Goel et al. 2019; Anthropic 2022.

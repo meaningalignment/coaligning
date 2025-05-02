@@ -1,4 +1,4 @@
-# 3 Towards a New Toolkit
+# Towards a New Toolkit
 
 The advantage with preference relations or free-form text strings, is they can represent anything. Utility functions can represent any consistent set of choices, constructive or destructive; text strings can encode any instructions, cooperative or uncooperative. No assumptions get baked in about what values are, when they apply, or about the nature of the good (what kinds of attractor states values tend towards).
 

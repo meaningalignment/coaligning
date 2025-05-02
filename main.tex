@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[final]{neurips}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{longtable}
+
+% Adjust list indentation
+\setlist{leftmargin=*}
+\setlist[enumerate]{label=\arabic*., topsep=0pt, parsep=0pt}
+\setlist[itemize]{topsep=0pt, parsep=0pt}
+
+% Table settings
+\setlength{\LTcapwidth}{\textwidth}
+\setlength{\tabcolsep}{4pt}
+
+% NeurIPS settings
+% Camera-ready version is set in document class options
+
+% Title and author information
+\title{Co-aligning AI and Institutions: A Framework for Full-Stack Alignment}
+
+\author{
+  Joe Edelman\\
+  Meaning Alignment\\
+  % Add other authors similarly
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+AI alignment cannot be solved by focusing on a single system in isolation. Even perfectly intent-aligned AI embedded in misaligned institutions will lead to dangerous outcomes. The emerging field of ``sociotechnical alignment'' is currently undermined by reliance on two inadequate paradigms: the ``Standard Institution Design Toolkit'' (SIDT)---preference/utility frameworks from economics and game theory---and naive value-representations without structural guarantees. Both fail to account for moral reasoning, value evolution, and social context. Through five application areas---AI value stewardship, normatively competent agents, win-win negotiation systems, meaning-preserving economic mechanisms, and democratic regulatory institutions---we demonstrate why these thin models of human rationality cannot address our sociotechnical alignment challenges. We propose a new toolkit of thick models of choice that makes previously intractable problems tractable and enables co-alignment of AI and institutions toward global human flourishing. We call this ``Full-Stack Alignment'' (FSA), referring to the co-alignment of AI systems and institutions across the entire societal stack using thick models of choice that explicitly represent values and norms. Finally, we present a Full Stack Alignment Research Proposal for moving from theoretical foundations to practical adoption.
+\end{abstract}
+
+% Include all sections in the right order
+\input{introduction}
+\input{existing_toolkits}
+\input{new_toolkit}
+\input{case_studies}
+\input{roadmap}
+\input{conclusion}
+\input{footnotes}
+\input{related_work}
+
+\renewcommand{\bibsection}{\section*{References}}
+\setlength{\bibsep}{0.0pt}
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}
