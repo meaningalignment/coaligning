@@ -6,11 +6,11 @@ Yet that's also their chief drawback: an alignment target expressed this way can
 
 This is one root cause of the problems with SIDT and the naive textual approaches catalogued in Section 2: it explains why addictive or manipulated behaviours can masquerade as bona-fide *values*, why zero-sum brinkmanship is mistaken for "optimal cooperation," why slogans like "Defund the Police" or "Abortion is Murder" might be read as instructions rather than tribal badges, and why vague aspirations such as "AI should always do the right thing" create an illusion of constraint while offering little guidance.
 
-To overcome these limitations, we need a framework that takes a stance on what values and norms are, or are about, rather than treating all preference relations or text strings as equally valid candidates. In other words, we must say more about **normativity itself**.  There are two places to start: (a) We can try to constrain the **content** of normativity by declaring what values or norms are *for*, what they're supposed to *point at*, or how we'd *recognize a good one*; or (b) alternatively, we can constrain the **form** of the normative, finding *explicit, structured representations* of norms and values that resist drift in arbitrary directions.
+To overcome these limitations, we need a framework that takes a stance on what values and norms are, or are about, rather than treating all preference relations or text strings as equally valid candidates. In other words, we must say more about **normativity itself**.  There are two places to start: (a) We can identify patterns of **normative convergence** by exploring what values or norms are *for*, what they're supposed to *point at*, or how we'd *recognize a good one*; or (b) alternatively, we can develop **structural representations** of the normative, finding *explicit, structured encodings* of norms and values that resist drift in arbitrary directions.
 
-## Approach 1: Attractors in Value Space
+## Approach 1: Normative Convergence
 
-One way to approach the **content** question is to imagine that norms or values are meant to fulfill a purpose, and have varying levels of fitness for that purpose. If values are *for something*—if what's good is not arbitrary but advances in an identifiable direction—then we can distinguish authentic normative considerations from mere preferences, tribal markers, or passing fads based on their content.
+One way to identify normative convergence is to imagine that norms or values are meant to fulfill a purpose, and have varying levels of fitness for that purpose. If values are *for something*—if what's good is not arbitrary but advances in an identifiable direction—then we can distinguish authentic normative considerations from mere preferences, tribal markers, or passing fads based on their content.
 
 This approach identifies 'attractors in value space'—organizing principles that help us understand what values are ultimately about, and provide criteria for recognizing which considerations might reliably re-emerge and stabilize (ideally, regardless of cultural or historical contingencies) and which should be considered as noise.
 
@@ -22,7 +22,7 @@ Other candidate attractors are easy to come by: values could trend towards the a
 
 Whatever we imagine values are for, taking a stance can structure alignment much more clearly than the SIDT or naive text strings can.
 
-## Approach 2: The Form of Values and Good Normative Reasoning
+## Approach 2: Structural Representation
 
 A complimentary approach is to establish formal constraints on how values and norms are represented and reasoned about, encoding values so they resist misinterpretation and manipulation, remain stable under the pressure of optimization processes, and don't drift toward arbitrary targets.
 
@@ -42,7 +42,7 @@ These structured representations can provide guardrails that keep normative reas
 
 ## Integration with Existing Methods
 
-Once some assumptions are made about the form or content of the normative, there are options to reintegrate the results with the power mathematical formalisms of the SIDT and the recent successes of critique-based RL fine-tuning.
+Once we've established structural representations or identified patterns of normative convergence, there are options to reintegrate the results with the power mathematical formalisms of the SIDT and the recent successes of critique-based RL fine-tuning.
 
 The major results of rational choice, game theory, and micro-economics assume utility functions that represent stable preference orderings. To capture richer values and norms, we can keep that mathematical scaffolding but enlarge the domain—"utility" would no longer reflect mere preferability, but an all-things-considered value judgment.
 
