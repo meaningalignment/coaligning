@@ -9,3 +9,5 @@ main.pdf
 main.bbl
 main.blg
 .search_results.json
+doc/.build
+doc/coaligning.pdf
