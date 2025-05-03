@@ -24,12 +24,16 @@ This document tracks the verification status of all citations in the paper.
 - [x] Spohn 2003 - REAL - "Lehrer Meets Ranking Theory" found in The Epistemology of Keith Lehrer with DOI 10.1007/978-94-010-0013-0_9
 - [ ] Treutlein 2023 - POTENTIALLY FAKE - Couldn't find any relevant papers by Treutlein in 2023 related to AI alignment or ethics
 - [x] Edelman 2022 - REAL - "Values-based attention" found on GitHub repository
-- [ ] Xuan [unknown]
+
+## Newly Found References to Verify
+- [x] Velleman 1989 - REAL - "Practical Reflection" published by Princeton University Press
+- [x] Velleman 2009 - REAL - "How We Get Along" published by Cambridge University Press, DOI: 10.1017/cbo9780511808296
+- [x] Carauleanu et al. 2024 - REAL - "Towards Safe and Honest AI Agents with Neural Self-Other Overlap" paper on arXiv with ID 2412.16325
+- [x] Ruth Chang 1997 - REAL - "Incommensurability, Incomparability, and Practical Reason" (edited volume) published by Harvard University Press
+- [x] Isaac Levi 1986 - REAL - "Hard Choices: Decision Making under Unresolved Conflict" published by Cambridge University Press with DOI 10.1017/cbo9781139171960
+- [ ] Weber (no date) - Referenced in footnotes.tex alongside Taylor (no specific work cited, appears to be a general reference to Max Weber's political theories)
+- [x] Taylor 2003 - REAL - "Modern Social Imaginaries" published by Duke University Press with DOI 10.2307/j.ctv11hpgvt
+- [ ] Amartya Sen (no date) - Mentioned in existing_toolkits.tex and footnotes.tex
 
 ## Footnotes References
 - [x] Manin 1997 - REAL - "The Principles of Representative Government" published by Cambridge University Press with DOI 10.1017/cbo9780511659935
-- [ ] Conitzer "moral mechanism"
-- [ ] Glen Weyl [quote]
-- [ ] Joe Edelman "Nothing to Be Done"
-- [ ] Taylor "Modern Social Imaginaries"
-- [ ] Weber [unknown]
