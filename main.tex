@@ -1,5 +1,5 @@
-\documentclass{article}
-\usepackage[final]{neurips}
+\documentclass[numbers]{article}
+\usepackage[final]{neurips_2023}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{amsmath}
@@ -21,10 +21,10 @@
 % Camera-ready version is set in document class options
 
 % Title and author information
-\title{Co-aligning AI and Institutions: A Framework for Full-Stack Alignment}
+\title{Co-aligning AI and Institutions: Prospects for Full-Stack Alignment}
 
 \author{
-  Joe Edelman\\
+  XuanJoe Klingefjord Lowe\\
   Meaning Alignment\\
   % Add other authors similarly
 }
@@ -34,7 +34,7 @@
 \maketitle
 
 \begin{abstract}
-AI alignment cannot be solved by focusing on a single system in isolation. Even perfectly intent-aligned AI embedded in misaligned institutions will lead to dangerous outcomes. The emerging field of ``sociotechnical alignment'' is currently undermined by reliance on two inadequate paradigms: the ``Standard Institution Design Toolkit'' (SIDT)---preference/utility frameworks from economics and game theory---and naive value-representations without structural guarantees. Both fail to account for moral reasoning, value evolution, and social context. Through five application areas---AI value stewardship, normatively competent agents, win-win negotiation systems, meaning-preserving economic mechanisms, and democratic regulatory institutions---we demonstrate why these thin models of human rationality cannot address our sociotechnical alignment challenges. We propose a new toolkit of thick models of choice that makes previously intractable problems tractable and enables co-alignment of AI and institutions toward global human flourishing. We call this ``Full-Stack Alignment'' (FSA), referring to the co-alignment of AI systems and institutions across the entire societal stack using thick models of choice that explicitly represent values and norms. Finally, we present a Full Stack Alignment Research Proposal for moving from theoretical foundations to practical adoption.
+AI systems embedded in our social institutions create a dangerous misalignment: even if each AI faithfully serves its users' stated preferences, the resulting institutional dynamics can systematically undermine our deeper human values. Current approaches to this sociotechnical challenge fall into two inadequate paradigms: the ``Standard Institution Design Toolkit'' (SIDT), which models humans as utility-maximizing agents with fixed preference orderings, and naive value-representations that encode norms as unstructured text vulnerable to drift and manipulation. We introduce Full-Stack Alignment (FSA)—a framework for co-aligning AI systems with human institutions using structured, accountable representations of values and norms. FSA combines two complementary strategies: identifying patterns of normative convergence that distinguish authentic values from manipulated preferences, and developing structural representations that formalize how values should be encoded and reasoned with. We demonstrate through five case studies—AI value stewardship, normatively competent agents, win-win negotiation, meaning-preserving economic mechanisms, and democratic regulation—how FSA transforms intractable alignment problems into tractable engineering challenges. Beyond technical innovation, FSA represents an institutional paradigm shift: from thin models of rationality that flatten human values into preference curves or arbitrary text, to thick models of choice that capture the rich texture of normative reasoning and make AI-human relationships accountable to the values we refuse to trade away. We conclude with a research roadmap for moving from theoretical foundations to practical implementation across multiple domains.
 \end{abstract}
 
 % Include all sections in the right order
@@ -44,12 +44,11 @@ AI alignment cannot be solved by focusing on a single system in isolation. Even 
 \input{case_studies}
 \input{roadmap}
 \input{conclusion}
-\input{footnotes}
 \input{related_work}
 
 \renewcommand{\bibsection}{\section*{References}}
 \setlength{\bibsep}{0.0pt}
-\bibliographystyle{plainnat}
-\bibliography{references}
+\bibliographystyle{unsrtnat}
+\bibliography{real}
 
 \end{document}
